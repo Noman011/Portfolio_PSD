@@ -1,0 +1,364 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+ul,li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.clr{
+    clear: both;
+}
+.mr{
+    margin-right: 0 !important;
+}
+.mb{
+    margin-bottom: 0 !important;
+}
+.br{
+    border-right: none !important;
+}
+.full_wrapper{
+    width: 100%;
+}
+.wrapper{
+    width: 1170px;
+    margin: 0 auto;
+}
+/* .....All common css end.... */
+.header{
+    background: #02918C;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    position: fixed;
+}
+.logo{
+    width: 150px;
+    float: left;
+}
+.logo img{
+    width: 100%;
+}
+.menu{
+    width: 1020px;
+    float: left;
+    text-align: right;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    text-align: right;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 900;
+    text-transform: capitalize;
+    padding-left: 45px;
+}
+
+/* banner part start */
+.banner{
+    padding-top: 208px;
+    padding-bottom: 208px;
+    background: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.banner_text{
+    text-align: center;
+}
+.banner_text p{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+}
+.banner_text h3{
+    font-size: 46px;
+    color: #fff;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+.banner_text h5{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+}
+.banner_photo img{
+    width: 110px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.banner_text a{
+    background: #CFC91D;
+    color: black;
+    font-size: 14px;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 11px 19px;
+}
+
+/* ......About part start */
+.about{
+    padding-top: 95px;
+    padding-bottom: 95px;
+}
+.about_text{
+    text-align: center;
+}
+.about_text h3{
+    font-size: 46px;
+    font-weight: 800;
+    color: #02918C;
+    text-transform: uppercase;
+}
+.about_text h5{
+    padding-top: 31px;
+    padding-bottom: 36px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.about_text p{
+    font-size: 16px;
+    font-weight: 400;
+    width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 30px;
+    padding-bottom: 80px;
+}
+.about_items{
+    float: left;
+    width: 25%;
+    border-right: 1px solid#D9DBDB ;
+    text-align: center;
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+
+.about_items h3{
+    font-size: 16px; 
+    font-weight: 800;  
+    text-transform: capitalize;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #7E8287; 
+}
+.about_items p{
+    font-size: 11px; 
+    font-weight: 400; 
+    width: 160px;
+    margin: 0 auto;
+    line-height: 21px;
+    
+}
+/* Service part start */
+.service{
+    padding-top: 117px;
+    padding-bottom: 120px;
+    background: url(../images/service.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.service_text h3{
+    font-size: 46px;
+    font-weight: 800;
+    color: #02918C;
+}
+.service_text h5{
+    padding-top: 41px;
+    padding-bottom: 30px;
+}
+.service_text p{
+    width: 470px;
+    line-height: 41px;
+    padding-bottom: 55px;
+    
+}
+.service_part{
+    width: 227.5px;
+    margin-right: 100px;
+    margin-bottom: 55px;
+    float: left;
+}
+.service_part h3{
+    font-size: 16px;
+    font-weight: 800;
+    color: #7E8287;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+.service_part p{
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 21px;
+    width: 165px;
+}
+/* My work Part Start */
+.my_work{
+    padding-top: 105px;
+    padding-bottom: 95px;
+}
+.my_work_head{
+    text-align: center;
+}
+.my_work_head h3{
+    font-size: 46px;
+    font-weight: 800;
+    color: #139893;
+    text-transform: uppercase;
+}
+.my_work_head h5{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.my_work_head p{
+    line-height: 41px;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 80px;
+    width: 640px;
+    margin: 0 auto;
+}
+.my_work_photo{
+    width: 25%;
+    float: left;
+}
+.my_work_photo img{
+    width: 100%;
+    position: relative;
+}
+.pic {
+	position: absolute;
+	text-align: center;
+	background: #239b95bd;
+	top: 3042px;
+	left: 369px;
+	padding: 50px 46px;
+}
+.pic h3{
+    font-size: 16px;
+    font-weight: 800;
+    color: #fff;
+    padding-bottom: 15px;
+}
+.pic p{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21px;
+    width: 185px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+/* COntact part start */
+.contact{
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+.contact_part{
+    text-align: center;
+}
+.contact_part h3{
+    font-size: 46px;
+    font-weight: 800;
+    color: #02918C;
+    text-transform: uppercase;
+}
+.contact_part h5{
+    padding-top: 32px;
+    padding-bottom: 30px;
+}
+.contact_part p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #878A8F;
+    width: 640px;
+    margin: 0 auto;
+    line-height: 41px;
+}
+/* Footer part start */
+.footer{
+    padding-top: 65px;
+    padding-bottom: 65px;
+    background: black;
+}
+.foo_name{
+   text-align: center;
+}
+.foo_name h3{
+    font-size: 16px;
+    font-weight: 400;
+    color: #767A7F;
+    position: relative;
+    padding-bottom: 85px;
+
+}
+.foo_name h4{
+    font-size: 16px;
+    font-weight: 400;
+    color: #767A7F;
+    position: relative;
+    padding-bottom: 85px;
+
+}
+.foo_name h3::after {
+	position: absolute;
+	height: 1px;
+	width: 630px;
+	top: 40px;
+	left: 256px;
+	content: "";
+	background: white;
+}
+.foo_name h4::after {
+	position: absolute;
+	height: 1px;
+	width: 850px;
+	top: 40px;
+	left: 177px;
+	content: "";
+	background: white;
+}
+.foo_name h5{
+    position: relative;
+    padding-bottom: 85px;
+}
+.foo_name h5::after {
+	position: absolute;
+	height: 1px;
+	width: 850px;
+	top: 40px;
+	left: 177px;
+	content: "";
+	background: white;
+}
+.foo_btn{
+    text-align: center;
+    padding-top: 30px;
+}
+.foo_btn a{
+    background: #CFC91D;
+    text-transform: uppercase;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 19px 65px;
+    border: none;
+}
+.foo_btn p{
+    font-weight: 400;
+    font-size: 12px;
+    color: #767A7F;
+    margin-top: 100px;
+}
